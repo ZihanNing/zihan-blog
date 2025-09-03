@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Zihan\'s Tech (kind-of) Blog',
+  title: 'Zihan\'s (kind-of) Tech Blog',
   tagline: 'About my tech journey and other random hobbies',
   favicon: 'img/favicon.ico',
 
@@ -81,12 +81,17 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Zihan\'s Home',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/cat.png',
         },
         items: [
+          {
+            to: '/cv',                 // direct link to your page
+            label: 'Professional CV',  // what shows in the navbar
+            position: 'left',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',

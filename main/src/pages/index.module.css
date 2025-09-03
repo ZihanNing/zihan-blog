@@ -4,10 +4,17 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+  padding: 10rem 0;
+  text-align: right;
   position: relative;
   overflow: hidden;
+
+  /* Add background image */
+  background-image: url('/img/cat_street.png');
+  background-size: cover;       /* Make sure the image covers the whole banner */
+  background-position: center;  /* Keep the subject centred */
+  background-repeat: no-repeat; /* Avoid tiling */
+  color: #6D676E;                 /* Ensure text is readable on top */
 }
 
 @media screen and (max-width: 996px) {
@@ -18,6 +25,6 @@
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
