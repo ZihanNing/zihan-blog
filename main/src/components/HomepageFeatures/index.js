@@ -13,7 +13,7 @@ const FeatureList = [
         PhD in Biomedical Engineering (MR Physics) <br />
         Amateur photographer & painter <br />
         Passionate about travelling, knitting, ukulele, and orchids <br />
-        Discover the <Link to="/cv">professional me</Link> or the casual me
+        Discover the <Link to="/cv">professional me</Link> or the <Link to="/casual">casual me</Link>
       </>
     ),
   },
@@ -25,6 +25,14 @@ const FeatureList = [
         Projects about MR imaging (several open-sourced) <br />
         Tutorials about MR physics and image reconstruction (progress while learning) <br />
         And random tech stuff <br />
+        <p>
+        <a
+          className="button button--secondary button--sm"
+          href="https://zihanning.github.io/zihan_tutorials/"
+        >
+          Visit Tutorials
+        </a>
+      </p>
       </>
     ),
   },

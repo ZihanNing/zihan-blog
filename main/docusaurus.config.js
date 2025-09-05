@@ -93,11 +93,16 @@ const config = {
             label: 'Professional CV',  // what shows in the navbar
             position: 'left',
           },
-          {
+          /*{
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
+          },*/
+          {
+            href: 'https://zihanning.github.io/zihan_tutorials/',
+            label: 'Tutorials',
+            position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
